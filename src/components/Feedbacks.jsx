@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Feedbacks = () => {
+const About = () => {
   return (
-    <div>Feedbacks</div>
+    <div>About</div>
   )
 }
 
-export default Feedbacks
+export default About
