@@ -8,6 +8,11 @@ const styles = {
   heroSubText:
     "text-[#dfd9ff] font-medium lg:text-[30px] sm:text-[26px] xs:text-[20px] text-[16px] lg:leading-[40px]",
 
+  aboutHeadText:
+  "font-black text-[#b9f70e]  lg:text-[86px] sm:text-[65px] xs:text-[55px] text-[45px] lg:leading-[98px] mt-2",
+  aboutSubText:
+  "font-black italic text-white lg:text-[65px] sm:text-[45px] xs:text-[35px] text-[25px] lg:leading-[98px] mt-2",
+
   sectionHeadText:
     "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
   sectionSubText:

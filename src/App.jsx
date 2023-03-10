@@ -10,7 +10,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <div className=' bg-[#915EFF] bg-cover bg-no-repeat bg-center'>
+        <div className=' bg-[#8ee04c] bg-cover bg-no-repeat bg-center'>
       
           <About />
         </div>
