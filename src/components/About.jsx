@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { services } from '../constants';
 
 import { styles } from "../styles";
-
+import { sagar,github } from '../assets';
 import { fadeIn, textVariant} from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
@@ -71,20 +71,20 @@ on a variety of projects ranging from small web applications to
 large solutions. I am proud of my ability to collaborate
 closely with c team members to create efficient, scalable, and 
 user-friendly solutions that solve real-world problems while keeping the UI and Security in mind. 
- I am currently pursuing a Bachelor's degree in Technology and hold a diploma in Computer Science and Technology..
+ I am currently pursuing a Bachelor's degree in Technology and hold a diploma in Computer Science and Technology.
 </motion.p>
 <motion.div className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
 variants={textVariant()}
 
 >
-<img src=" src/assets/sagar.png "  className='  relative  sm:w-[400px]  rotate-12 overflow-none' alt="Sagar Bisht"/>
+<img src={sagar}  className='  relative  sm:w-[400px]  rotate-12 overflow-none' alt="Sagar Bisht"/>
 </motion.div>
 <div>
 
 </div>
 </div>
 <div className='mt-10 flex flex-wrap gap-8  justify-center md:justify-start ' >
-    <h1 className='text-[40px] font-serif'> Technalogy I work On <b  className='text-[#a8121e] decoration-2'> {text}</b>  </h1>
+    <h1 className='text-[40px] font-serif'> Technology I work On <b  className='text-[#a8121e] decoration-2'> {text}</b>  </h1>
 </div>
 </>
 )

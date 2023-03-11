@@ -1,9 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
-import { SectionWrapper } from "../hoc";
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
@@ -22,7 +20,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I am Software Developer<br className='sm:block hidden' />
-            Deals with  Fullstack Developmant & API's 
+             &nbsp Deals with  Frontend & Backend Developmant. 
           </p>
         </div>
       </div>
