@@ -26,9 +26,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import swatchta from "./swatchta.png";
+import amp from "./amp.png";
+import whiteboard from "./whiteboard.png";
+import sih from "./sih.svg";
 
 export {
   logo,
@@ -36,6 +37,7 @@ export {
   creator,
   mobile,
   web,
+  sih,
   github,
   menu,
   close,
@@ -56,7 +58,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  swatchta,
+  amp,
+  whiteboard,
 };
